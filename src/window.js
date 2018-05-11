@@ -12,6 +12,7 @@ export localStorage from './localStorage'
 export location from './location'
 export * from './WindowProperties'
 export * from './constructor'
+export TouchEvent from './EventIniter/TouchEvent'
 
 // 暴露全局的 canvas
 const canvas = new Canvas()
